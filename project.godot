@@ -10,14 +10,15 @@ config_version=5
 
 [application]
 
-config/name="Task01"
+config/name="Duck Catcher"
+config/description="A simple game for the US18740 internal assesment made by Sho"
 run/main_scene="res://task_01.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://Sprites/icon.svg"
 
 [autoload]
 
-GlobalScript="*res://GlobalScript.gd"
+GlobalScript="*res://Scripts/GlobalScript.gd"
 
 [input]
 

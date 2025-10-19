@@ -1,12 +1,12 @@
 [gd_scene load_steps=6 format=3 uid="uid://bm2m4dtot603m"]
 
-[ext_resource type="Script" path="res://game.gd" id="1_klrkg"]
+[ext_resource type="Script" path="res://Scripts/game.gd" id="1_klrkg"]
 [ext_resource type="Theme" uid="uid://p6ily2d3rb8i" path="res://default_theme.tres" id="1_yll68"]
-[ext_resource type="Texture2D" uid="uid://cqwjmy2mfq6pc" path="res://basket.png" id="3_akrc4"]
-[ext_resource type="Script" path="res://player.gd" id="3_yovk6"]
+[ext_resource type="Texture2D" uid="uid://cqwjmy2mfq6pc" path="res://Sprites/basket.png" id="3_akrc4"]
+[ext_resource type="Script" path="res://Scripts/player.gd" id="3_yovk6"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ugp5i"]
-radius = 12.1181
+radius = 11.2896
 height = 49.6901
 
 [node name="Task01" type="Node2D"]
@@ -37,7 +37,7 @@ autostart = true
 
 [node name="Player" type="CharacterBody2D" parent="."]
 z_index = 1
-position = Vector2(553, 274)
+position = Vector2(596, 459)
 script = ExtResource("3_yovk6")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
